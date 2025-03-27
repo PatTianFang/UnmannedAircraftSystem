@@ -25,7 +25,7 @@ def decode_qr(img_path):
     }
 
 if __name__ == "__main__":
-    result = decode_qr("mission1/4,5,6,right.png")
+    result = decode_qr("mission1/1,2,3,left.png")
     if result:
         print("二维码内容:", result['content'])
         print("二维码角点:", result['points'])
